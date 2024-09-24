@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Vamos Contar</title>
+</head>
+<body>
+    <header>
+        <h1>Vamos contar</h1>
+    </header>
+    <main>
+        <section>
+            <div>
+                <label for="iinicio">Início: </label>
+                <input type="number" name="iinicio" id="inicio"><br>
+
+                <label for="ifim">Fim: </label>
+                <input type="number" name="ifim" id="fim"><br>
+
+                <label for="ipasso">Passo: </label>
+                <input type="number" name="ipasso" id="passo"><br>
+
+                <input type="button" value="Contar" onclick="contar()">
+            </div>
+            <div id="resultado">
+                
+            </div>
+        </section>
+    </main>
+    <footer>
+        © CursoemVideo
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
